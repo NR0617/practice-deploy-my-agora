@@ -13,7 +13,7 @@ export const Form = ({ addDiscussion }) => {
         <div className="form__input--wrapper">
           <div className="form__input--name">
             <label htmlFor="name">Enter your name: </label>
-            <input type="text" name="name" id="name" required />
+            <input type="text" placeholder="test-github__action" name="name" id="name" required />
           </div>
           <div className="form__input--title">
             <label htmlFor="title">Enter your title: </label>
