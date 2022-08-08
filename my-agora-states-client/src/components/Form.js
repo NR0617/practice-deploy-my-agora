@@ -17,7 +17,7 @@ export const Form = ({ addDiscussion }) => {
           </div>
           <div className="form__input--title">
             <label htmlFor="title">Enter your title: </label>
-            <input type="text" name="title" id="title" required />
+            <input type="text" placeholder="테스트중" name="title" id="title" required />
           </div>
           <div className="form__textbox">
             <label htmlFor="story">Your question: </label>
